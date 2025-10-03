@@ -11,7 +11,7 @@ public class Questao12 {
             Date data = formato.parse(dataString);
             System.out.println(data);
         } catch (Exception e) {
-            System.out.println("Data inválida");
+            System.err.println("Data inválida");
         }
     }
 }

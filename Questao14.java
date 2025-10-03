@@ -6,7 +6,7 @@ public class Questao14 {
             int numero = Integer.parseInt(hex, 16);
             System.out.println(numero);
         } catch (NumberFormatException e) {
-            System.out.println("Hexadecimal inválido");
+            System.err.println("Hexadecimal inválido");
         }
     }
 }

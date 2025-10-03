@@ -8,7 +8,7 @@ public class Questao13 {
             Files.list(Paths.get(diretorio))
                     .forEach(System.out::println);
         } catch (Exception e) {
-            System.out.println("Diretório inválido");
+            System.err.println("Diretório inválido");
         }
     }
 }

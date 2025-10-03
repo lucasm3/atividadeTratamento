@@ -21,7 +21,7 @@ public class Questao11 {
             System.out.println(soma / count);
 
         } catch (ArithmeticException e) {
-            System.out.println("Lista vazia");
+            System.err.println("Lista vazia");
         }
     }
 }
